@@ -1,0 +1,53 @@
+body { 
+    font-family: Arial, sans-serif; text-align: center;
+    
+     
+ }
+.container {
+     max-width: 800px; margin: auto; padding: 20px; 
+}
+  .game-section {
+     margin: 20px 0;
+     }
+     
+ .game-title {
+     font-size: 24px; font-weight: bold; 
+    }
+  .game-description {
+     font-size: 18px; margin-top: 10px;
+     }
+ .game-section {
+     padding: 20px;
+     border: 1px solid #ccc;
+     margin-bottom: 15px;
+ }
+*{
+    scroll-behavior: smooth;
+   
+
+ }
+.game-section:hover{
+    background-color: orange;
+    
+ }
+ .game-section2{
+    margin: 20px 0;
+ }
+ .vox{
+    position: relative;
+    display: flex;
+    justify-content: center;
+ }
+ .vox video{
+    position: relative;
+    left: 0%;
+    right: 0%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+ }
+ a{
+    text-decoration: none;
+    
+ }
